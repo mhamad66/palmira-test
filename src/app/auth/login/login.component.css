@@ -1,0 +1,51 @@
+.form-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 50%;
+}
+
+form {
+  width: 50%;
+  height: 100vh;
+  padding: 10px;
+  background: #FFF;
+  border: 1px solid #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  background: red;
+}
+
+.form-group, input[type="email"], input[type="password"] {
+  width: 80%;
+  margin: 10px auto;
+}
+
+input[type="email"], input[type="password"], button[type="submit"] {
+  margin-top: 10px;
+  height: 50px;
+}
+
+button[type="submit"] {
+  width: 200px;
+}
+
+@media only screen and (max-width: 900px) {
+  img {
+    display: none;
+  }
+
+  form {
+    width: 100%;
+  }
+}
